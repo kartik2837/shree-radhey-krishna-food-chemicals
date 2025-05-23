@@ -1,6 +1,6 @@
 import React from 'react'
-
-const Service = () => {
+import { Link } from 'react-router-dom'
+const Product1 = () => {
     return (
         <div className="service">
             <div className="container">
@@ -20,7 +20,10 @@ const Service = () => {
                                 </div>
                             </div>
                             <div className="service-text">
-                                <h3 style={{ cursor: "pointer" }} >DL-MALIC ACID</h3>
+                                <Link to="/products">
+                                    <span style={{ fontSize: '1.5rem', cursor: 'pointer', }}>DL-MALIC ACID </span>
+                                </Link>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;
+
                                 <a className="btn" href="img/dl malic acid china.avif" data-lightbox="service">+</a>
                             </div>
                         </div>
@@ -36,7 +39,8 @@ const Service = () => {
                                 </div>
                             </div>
                             <div className="service-text">
-                                <h3 style={{ cursor: "pointer" }}>MALIC ACID</h3>
+                                <Link to={'/MalicAcid'}> <span style={{ fontSize: '1.5rem', cursor: "pointer", }}>MALIC ACID</span>
+                                </Link> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                                 <a className="btn" href="img/malic acid.jpg" data-lightbox="service">+</a>
                             </div>
                         </div>
@@ -52,11 +56,36 @@ const Service = () => {
                                 </div>
                             </div>
                             <div className="service-text">
-                                <h3 style={{ cursor: "pointer" }}>DL TARTRIC ACID</h3>
+                                <Link to={'/tartricacid'}> <span style={{ fontSize: '1.5rem', cursor: "pointer", }}>DL TARTRIC ACID</span>
+                                </Link> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;
                                 <a className="btn" href="img/dl tartric acid.jpg" data-lightbox="service">+</a>
                             </div>
                         </div>
                     </div>
+
+
+                    <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div className="service-item">
+                            <div className="service-img">
+                                <img style={{ cursor: "pointer" }} src="img/Potassium-permanganate.jpg" alt="Image" />
+                                <div className="service-overlay">
+                                    <p>
+                                        Potassium permanganate is a purple-black crystalline solid and a powerful oxidizing agent widely used in various industrial and medical applications. It dissolves in water to produce a deep purple solution and is commonly employed in water treatment to remove iron and hydrogen sulfide, disinfection of wounds, and as an oxidizer in chemical synthesis.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="service-text">
+                                <Link to={'/potasium'}> <span style={{ fontSize: '1.5rem', cursor: "pointer", }}>Potassium Permanganate</span>
+                                </Link>
+                                <a className="btn" href="img/Potassium-permanganate.jpg" data-lightbox="service">+</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                         <div className="service-item">
                             <div className="service-img">
@@ -68,7 +97,8 @@ const Service = () => {
                                 </div>
                             </div>
                             <div className="service-text">
-                                <h3 style={{ cursor: "pointer" }}>L+ TARTRIC ACID</h3>
+                                <Link to={'/Ltartric'}> <span style={{ fontSize: '1.5rem', cursor: "pointer", }}>L+ TARTARIC ACID</span>
+                                </Link>&nbsp;&nbsp;&nbsp;&nbsp;
                                 <a className="btn" href="img/tartric acid.jpg" data-lightbox="service">+</a>
                             </div>
                         </div>
@@ -84,7 +114,8 @@ const Service = () => {
                                 </div>
                             </div>
                             <div className="service-text">
-                                <h3 style={{ cursor: "pointer" }}>Dextrose anhydrous </h3>
+                                <Link to={'/Dextrose'}> <span style={{ fontSize: '1.5rem', cursor: "pointer", }}>Dextrose anhydrous </span>
+                                </Link> &nbsp; &nbsp; &nbsp;
                                 <a className="btn" href="img/Dextrose-Anhydrous.png" data-lightbox="service">+</a>
                             </div>
                         </div>
@@ -101,7 +132,8 @@ const Service = () => {
                                 </div>
                             </div>
                             <div className="service-text">
-                                <h3 style={{ cursor: "pointer" }}>BORAX </h3>
+                                <Link to={'/Borax'}> <span style={{ fontSize: '1.5rem', cursor: "pointer", }}>BORAX </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </Link>
                                 <a className="btn" href="img/BORAX-10-KILO.jpg" data-lightbox="service">+</a>
                             </div>
                         </div>
@@ -117,9 +149,12 @@ const Service = () => {
                                         Boric Acid is a weak, naturally occurring acid derived from boron. It usually appears as a white, crystalline powder or in granule form. Boric acid is widely used as an antiseptic, insecticide, flame retardant, and in various industrial applications. In medicine, it serves as an eye wash or antiseptic for minor cuts and burns.
                                     </p>
                                 </div>
+
                             </div>
+
                             <div className="service-text">
-                                <h3 style={{ cursor: "pointer" }}>BORIC ACID </h3>
+                                <Link to={'/BoricAcid'}> <span style={{ fontSize: '1.5rem', cursor: "pointer", }}> &nbsp; BORIC ACID </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </Link>
                                 <a className="btn" href="img/borax acid.jpg" data-lightbox="service">+</a>
                             </div>
                         </div>
@@ -135,7 +170,8 @@ const Service = () => {
                                 </div>
                             </div>
                             <div className="service-text">
-                                <h3 style={{ cursor: "pointer" }}>Titanium dioxide  </h3>
+                                <Link to={'/titanium'}> <span style={{ fontSize: '1.5rem', cursor: "pointer", }}> &nbsp; TITANIUM DIOXIDE </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                                </Link>
                                 <a className="btn" href="img/titanium deoxide.jpg" data-lightbox="service">+</a>
                             </div>
                         </div>
@@ -153,7 +189,8 @@ const Service = () => {
                                 </div>
                             </div>
                             <div className="service-text">
-                                <h3 style={{ cursor: "pointer" }}>Portable Cabin  </h3>
+                                <Link to={'/portablecabin'}> <span style={{ fontSize: '1.5rem', cursor: "pointer", }}> &nbsp; PORATBLE CABIN </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                                </Link>
                                 <a className="btn" href="img/portable cabin.jpeg" data-lightbox="service">+</a>
                             </div>
                         </div>
@@ -176,7 +213,8 @@ const Service = () => {
                                 </div>
                             </div>
                             <div className="service-text">
-                                <h3 style={{ cursor: "pointer" }}>MS OFFICE CONTAINER </h3>
+                                <Link to={'/msoffice'}> <span style={{ fontSize: '1.5rem', cursor: "pointer", }}> &nbsp; MS OFFICE CONTAINER </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </Link>
                                 <a className="btn" href="img/MS-Office-Container..jpg" data-lightbox="service">+</a>
                             </div>
                         </div>
@@ -194,7 +232,8 @@ const Service = () => {
                                 </div>
                             </div>
                             <div className="service-text">
-                                <h3 style={{ cursor: "pointer" }}>MS PORTABLE TOILETS </h3>
+                                <Link to={'/toilet'}> <span style={{ fontSize: '1.5rem', cursor: "pointer", }}> &nbsp; MS Portable Toilet </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </Link>
                                 <a className="btn" href="img/ms-portable-toilet.webp" data-lightbox="service">+</a>
                             </div>
                         </div>
@@ -211,7 +250,8 @@ const Service = () => {
                                 </div>
                             </div>
                             <div className="service-text">
-                                <h3 style={{ cursor: "pointer" }}>SHIPPING CONTAINER CABIN </h3>
+                                <Link to={'/shipping'}> <span style={{ fontSize: '1.2rem', cursor: "pointer", }}> &nbsp; SHIPPING CONTAINER CABIN </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </Link>
                                 <a className="btn" href="img/office container.webp" data-lightbox="service">+</a>
                             </div>
                         </div>
@@ -227,7 +267,9 @@ const Service = () => {
                                 </div>
                             </div>
                             <div className="service-text">
-                                <h3 style={{ cursor: "pointer" }}>20x10x8.6 office container</h3>
+
+                                <Link to={'/office'}> <span style={{ fontSize: '1.2rem', cursor: "pointer", }}> &nbsp;20x10x8.6 OFFICE CONTAINER  </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </Link>
                                 <a className="btn" href="img/20x10x8.6 office container.jpg" data-lightbox="service">+</a>
                             </div>
                         </div>
@@ -244,7 +286,9 @@ const Service = () => {
                                 </div>
                             </div>
                             <div className="service-text">
-                                <h3 style={{ cursor: "pointer" }}>40x12x8.6 office container.png</h3>
+
+                                <Link to={'/officecontainer'}> <span style={{ fontSize: '1.3rem', cursor: "pointer", }}>40x12x8.6 OFFICE Container   </span>&nbsp; &nbsp;
+                                </Link>
                                 <a className="btn" href="img/40x12x8.6 office container.png" data-lightbox="service">+</a>
                             </div>
                         </div>
@@ -265,11 +309,128 @@ const Service = () => {
                                 </div>
                             </div>
                             <div className="service-text">
-                                <h3 style={{ cursor: "pointer" }}>Dibenzoyl L Tartaric acid</h3>
+
+                                <Link to={'/dltartric'}> <span style={{ fontSize: '1.5rem', cursor: "pointer", }}>  Dibenzoyl L Tartaric acid </span>&nbsp; &nbsp;
+                                </Link>
                                 <a className="btn" href="img/dbonzol.jpg" data-lightbox="service">+</a>
                             </div>
                         </div>
                     </div>
+                    <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div className="service-item">
+                            <div className="service-img">
+                                <img style={{ cursor: "pointer" }} src="img/amonium cloride.jpg" alt="Image" />
+                                <div className="service-overlay">
+                                    <p>
+                                        Ammonium Chloride is a white crystalline compound with the chemical formula NH₄Cl. It is highly soluble in water and is known for its slightly salty taste. This compound is widely used across industries due to its versatile chemical properties.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="service-text">
+
+
+                                <Link to={'/amonium'}> <span style={{ fontSize: '1.5rem', cursor: "pointer", }}>  &nbsp; Ammonium Chloride </span>&nbsp; &nbsp;
+                                </Link>
+                                <a className="btn" href="img/amonium cloride.jpg" data-lightbox="service">+</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div className="service-item">
+                            <div className="service-img">
+                                <img style={{ cursor: "pointer" }} src="img/potasium surbate.jpg" alt="Image" />
+                                <div className="service-overlay">
+                                    <p>
+                                        potassium Sorbate is the potassium salt of sorbic acid, with the chemical formula C₆H₇KO₂. It appears as a white crystalline powder or granules and is widely recognized for its role as a highly effective preservative in food, beverage, cosmetic, and pharmaceutical products.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="service-text">
+
+                                <Link to={'/potesium'}> <span style={{ fontSize: '1.5rem', cursor: "pointer", }}>  &nbsp; Potassium Sorbate </span>&nbsp; &nbsp;
+                                </Link>
+                                <a className="btn" href="img/potasium surbate.jpg" data-lightbox="service">+</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div className="service-item">
+                            <div className="service-img">
+                                <img style={{ cursor: "pointer" }} src="img/Phosphoric-Acid.png" alt="Image" />
+                                <div className="service-overlay">
+                                    <p>
+                                        phosphoric Acid (H₃PO₄) is a colorless, odorless, and non-volatile mineral acid that is widely used in industrial, agricultural, and food applications. It is typically available as a clear, viscous liquid and can also be found in crystalline form.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="service-text">
+
+                                <Link to={'/phosphoric'}> <span style={{ fontSize: '1.5rem', cursor: "pointer", }}>  &nbsp; Phosphoric Acid </span>&nbsp; &nbsp;
+                                </Link>
+                                <a className="btn" href="img/Phosphoric-Acid.png" data-lightbox="service">+</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div className="service-item">
+                            <div className="service-img">
+                                <img style={{ cursor: "pointer" }} src="img/soda ash.jpg" alt="Image" />
+                                <div className="service-overlay">
+                                    <p>
+                                        Soda Ash, also known as Sodium Carbonate (Na₂CO₃), is a white, odorless, water-soluble powder used in a wide range of industrial and commercial applications. It is a highly alkaline compound that plays a vital role in manufacturing processes across glass, detergents, chemicals, and water treatment industries.</p>
+                                </div>
+                            </div>
+                            <div className="service-text">
+
+                                <Link to={'/soda ash'}> <span style={{ fontSize: '1.5rem', cursor: "pointer", }}>  &nbsp; SODA ASH </span>&nbsp; &nbsp;
+                                </Link>
+                                <a className="btn" href="img/soda ash.jpg" data-lightbox="service">+</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div className="service-item">
+                            <div className="service-img">
+                                <img style={{ cursor: "pointer" }} src="img/sodium-citrate.jpg" alt="Image" />
+                                <div className="service-overlay">
+                                    <p>
+                                        Sodium Citrate is the sodium salt of citric acid, with the chemical formula Na₃C₆H₅O₇. It appears as a white, crystalline powder or granules, with a slightly salty and sour taste. It is highly soluble in water and widely used across the food, pharmaceutical, and industrial sectors.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="service-text">
+
+                                <Link to={'/sodium'}> <span style={{ fontSize: '1.5rem', cursor: "pointer", }}>  &nbsp; Sodium Citrate </span>&nbsp; &nbsp;
+                                </Link>
+                                <a className="btn" href="img/sodium-citrate.jpg" data-lightbox="service">+</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
                 </div>
             </div>
 
@@ -278,7 +439,7 @@ const Service = () => {
 
             <div className="video wow fadeIn" data-wow-delay="0.1s">
                 <div className="container">
-                    <button type="button" className="btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+                    <button type="button" className="btn-play" data-toggle="modal" data-src="" data-target="#videoModal">
                         <span></span>
                     </button>
                 </div>
@@ -303,4 +464,4 @@ const Service = () => {
     )
 }
 
-export default Service
+export default Product1

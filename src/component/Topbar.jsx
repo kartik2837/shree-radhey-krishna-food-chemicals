@@ -10,10 +10,10 @@ const Topbar = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-4 col-md-12">
                             <div className="logo">
-                                <a href="index.html">
+                                <a href="/">
                                     <div style={{ display: 'flex', alignItems: 'center' }}>
                                         <img
-                                            src="img/logo.png"
+                                            src="img/logo1.png"
                                             alt="Company Logo"
                                             style={{
                                                 width: '130px',

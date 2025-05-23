@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -15,32 +16,32 @@ const Footer = () => {
                                 <p><i class="fa fa-phone-alt"></i>+91 97185 66296</p>
                                 <p><i class="fa fa-envelope"></i>srkfc1994@gmail.com</p>
                                 <div class="footer-social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-youtube"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://in.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
                             <div class="footer-link">
                                 <h2>Services Areas</h2>
-                                <a href="">Chemicals Products</a>
-                                <a href="">Borax</a>
-                                <a href="">Office container </a>
-                                <a href="">MS office container</a>
-                                <a href="">Dl Malic Acid</a>
+                                <Link to="/product1">Chemicals Products</Link>
+                                <Link to="/Borax">Borax</Link>
+                                <Link to="/msoffice">Office container </Link>
+                                <Link to="/msoffice">MS office container</Link>
+                                <Link to="/products">Dl Malic Acid</Link>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
                             <div class="footer-link">
                                 <h2>Useful Pages</h2>
-                                <a href="">About Us</a>
-                                <a href="">Contact Us</a>
-                                <a href="">Our Product</a>
-                                <a href="">Service</a>
-                                <a href="">Catalog</a>
+                                <Link to="/about">About Us</Link>
+                                <Link to="/contact">Contact Us</Link>
+                                <Link to="/product1">Our Product</Link>
+
+                                <Link to="/catalog">Catalog</Link>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
@@ -72,7 +73,7 @@ const Footer = () => {
                             <p>&copy; <a href="#">Copyright@2025</a>, All Right Reserved.</p>
                         </div>
                         <div class="col-md-6">
-                            <p>Designed By Web4Businesssolutions <a href="https://htmlcodex.com"></a></p>
+                            <p><a href="https://web4businesssolutions.com/">Designed By Web4Businesssolutions</a></p>
                         </div>
                     </div>
                 </div>
