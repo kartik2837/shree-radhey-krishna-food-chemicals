@@ -73,7 +73,7 @@ const Footer = () => {
                             <p>&copy; <a href="#">Copyright@2025</a>, All Right Reserved.</p>
                         </div>
                         <div class="col-md-6">
-                            <p><a href="https://web4businesssolutions.com/">Designed By Web4Businesssolutions</a></p>
+                            <p><a href="#">Designed By NDS Infotech IT Solution</a></p>
                         </div>
                     </div>
                 </div>
